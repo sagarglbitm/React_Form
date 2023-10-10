@@ -1,0 +1,21 @@
+.side-container {
+    text-align: left;
+    margin-left: 30px;
+  
+    .side-title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  
+    .side-text {
+      font-size: 1rem;
+      color: #8c8c8c;
+      margin-bottom: 2rem;
+    }
+  
+    .side-image {
+      max-width: 100%;
+      height: 250px;
+    }
+  }

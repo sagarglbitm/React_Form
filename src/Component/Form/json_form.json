@@ -1,0 +1,58 @@
+{
+    "button": "Send Message",
+    "thankYouMessage":"Your message was sent, thank you!",
+    "fields": [
+        {
+            "name": "yourName",
+            "placeHolder": "Your Name",
+            "label": "Your Name",
+            "fullwidth": true,
+            "required": true,
+            "validation": {
+                "maxLength": 150,
+                "pattern": "^[A-Za-z]+$",
+                "message": "Please Enter your valid name"
+            },
+            "htmlElement": "textbox"
+        },
+        {
+            "name": "email",
+            "placeHolder": "Email",
+            "label": "Email",
+            "fullwidth": true,
+            "required": true,
+            "validation": {
+                "pattern": "^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+$",
+                "message": "Please enter a valid email address"
+            },
+            "htmlElement": "email"
+        },
+        {
+            "name": "subject",
+            "placeHolder": "Subject",
+            "label": "Subject",
+            "fullwidth": true,
+            "required": true,
+            "validation": {
+                "maxLength": 150,
+                "pattern": "^[A-Za-z]+$",
+                "message": "Please enter a valid subject"
+            },
+            "htmlElement": "textbox"
+        },
+        {
+            "name": "message",
+            "placeHolder": "Write your message",
+            "label": "Message",
+            "fullwidth": true,
+            "required": true,
+            "validation": {
+                "minLength": 25,
+                "maxLength": 250,
+                "message":"please enter your message"
+
+            },
+            "htmlElement": "textarea"
+        }
+    ]
+}
